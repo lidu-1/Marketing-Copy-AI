@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Marketing-Copy-AI</h1>
+  <img src="https://user-images.githubusercontent.com/98729397/224547102-99313bc0-7f6e-462f-aef6-16cc64476271.png">
 </div>
 
 ## Project Description
