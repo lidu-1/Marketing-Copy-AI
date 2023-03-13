@@ -1,5 +1,8 @@
 <div align="center">
   <img src="https://user-images.githubusercontent.com/98729397/224547102-99313bc0-7f6e-462f-aef6-16cc64476271.png">
+
+  focused on creating an AI-powered marketing copy generator.
+  
 </div>
 
 ## Project Description
