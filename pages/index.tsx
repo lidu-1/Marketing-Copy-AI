@@ -1,7 +1,4 @@
-import Feature from "@/components/Feature";
-import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
+import { Navbar, Hero, Feature, Footer } from "@/components";
 import Head from "next/head";
 
 export default function Home() {
