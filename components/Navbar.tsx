@@ -1,12 +1,20 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
+import { useTheme } from "next-themes";
 
 const Navbar = () => {
   const [isDarkMode, setDarkMode] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme();
+
+  useEffect(() => setMounted(true), []);
+
+  if (!mounted) return null;
 
   const toggleDarkMode = (checked: boolean) => {
     setDarkMode(checked);
+    setTheme(theme === "dark" ? "light" : "dark");
   };
   return (
     <>
