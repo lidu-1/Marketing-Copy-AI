@@ -1,14 +1,16 @@
+import { IconType } from "react-icons";
+
 type Props = {
   title: string;
-  icon: JSX.Element;
+  icon: IconType;
   description: string;
 };
 
-const FeatureItem = ({ title, icon, description }: Props) => {
+const FeatureItem = ({ title, icon: Icon, description }: Props) => {
   return (
     <div className="bg-slate-300 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 hover:-translate-y-2 transform transition rounded-md p-5">
       <div className="text-gray-800 dark:text-gray-300 w-6 h-6 mb-3">
-        {icon}
+        <Icon size={24} />
       </div>
       <h1 className="font-semibold text-lg text-gray-600 dark:text-gray-200 mb-1">
         {title}
