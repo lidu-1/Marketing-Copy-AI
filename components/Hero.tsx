@@ -1,6 +1,8 @@
+import { useRouter } from "next/router";
 import { HiOutlineArrowDown } from "react-icons/hi";
 
 const Hero = () => {
+  const router = useRouter();
   return (
     <section className="py-12">
       <div className="text-center flex flex-col justify-center min-h-[70vh]">
@@ -13,7 +15,10 @@ const Hero = () => {
         <p className="text-md text-gray-500 dark:text-gray-400 my-3">
           Generate Persuasive Marketing Copy in Minutes.
         </p>
-        <button className="px-5 py-3 bg-indigo-500 text-white font-semibold rounded-md mt-2 hover:bg-indigo-600 mx-auto">
+        <button
+          onClick={() => router.push("/dashboard")}
+          className="px-5 py-3 bg-indigo-500 text-white font-semibold rounded-md mt-2 hover:bg-indigo-600 mx-auto"
+        >
           Get started
         </button>
         <a>
