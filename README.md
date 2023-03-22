@@ -21,6 +21,8 @@ Our project is focused on creating an AI-powered marketing copy generator. With 
 
 ## Demo
 
+[demo video](https://vimeo.com/810431444)
+
 ![image](https://user-images.githubusercontent.com/77609957/226818584-e6bcacff-278e-44de-977d-bd6dbf7112be.png)
 
 ![image](https://user-images.githubusercontent.com/77609957/226818662-22a9cf9c-136d-47bb-bdd1-b53e5a1beb59.png)
